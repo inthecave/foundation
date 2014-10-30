@@ -2,7 +2,7 @@ name : In the Cave
 brand : In the Cave
 description : Philosophy!
 keyword: 
-url : http://inthecave.github.io
+url : http://inthecave.github.io/foundation
 email : schultzbergin@gmail.com
 twitter : immarcussb
 github : inthecave
@@ -10,3 +10,4 @@ author: Marcus Schultz-Bergin
 analytics: UA-56072237-1
 year: 2014
 markdown: kramdown
+permalink: /:categories/:title/
