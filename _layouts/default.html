@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+	{% include header.html %}
+	</head>
+	<body>
+
+	{% include nav.html %}
+
+		<!-- CONTENT SECTION -->
+		<div class="row content-section">
+			<div class="main-content">
+				<div class="small-12 medium-12 large-12 columns">
+					<h1>{{ page.title }}</h1>
+						{{ content }}
+				</div>
+			</div>
+		</div> <!-- END CONTENT SECTION -->
+
+		{% include footer.html %}
+	</body>
+</html>
